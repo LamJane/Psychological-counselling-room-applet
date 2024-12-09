@@ -1,0 +1,92 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webview/webview",
+    "pages/comment/edit",
+    "pages/media/music",
+    "pages/media/image",
+    "pages/media/video",
+    "pages/account/forgot",
+    "pages/account/login",
+    "pages/account/register",
+    "pages/article/list",
+    "pages/article/index",
+    "pages/article/details",
+    "pages/forum/index",
+    "pages/forum/list",
+    "pages/forum/details",
+    "pages/forum/view",
+    "pages/exam/list",
+    "pages/exam/details",
+    "pages/notice/list",
+    "pages/notice/details",
+    "pages/psychological_counseling/list",
+    "pages/psychological_counseling/details",
+    "pages/appointment_information/edit",
+    "pages/system_user/table",
+    "pages/system_user/view",
+    "pages/consultant/table",
+    "pages/consultant/view",
+    "pages/psychological_counseling/table",
+    "pages/psychological_counseling/view",
+    "pages/appointment_information/table",
+    "pages/appointment_information/view",
+    "pages/appointment_cancellation/table",
+    "pages/appointment_cancellation/view",
+    "pages/complaint_information/table",
+    "pages/complaint_information/view",
+    "pages/user/collect",
+    "pages/user/index",
+    "pages/user/password",
+    "pages/user/info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长盛",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3388FF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/home_a.png",
+        "selectedIconPath": "static/img/home_b.png"
+      },
+      {
+        "pagePath": "pages/forum/index",
+        "text": "心理论坛",
+        "iconPath": "static/img/forum_a.png",
+        "selectedIconPath": "static/img/forum_b.png"
+      },
+      {
+        "pagePath": "pages/article/index",
+        "text": "心理文章",
+        "iconPath": "static/img/article_a.png",
+        "selectedIconPath": "static/img/article_b.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/img/my_a.png",
+        "selectedIconPath": "static/img/my_b.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,309 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "心理文章"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "心理文章列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "心理文章详情"
+			}
+		},
+		{
+			"path": "pages/forum/index",
+			"style": {
+				"navigationBarTitleText": "心理论坛"
+			}
+		}, {
+			"path": "pages/forum/list",
+			"style": {
+				"navigationBarTitleText": "心理论坛列表"
+			}
+		}, {
+			"path": "pages/forum/details",
+			"style": {
+				"navigationBarTitleText": "心理论坛详情"
+			}
+		}, {
+			"path": "pages/forum/view",
+			"style": {
+				"navigationBarTitleText": "发布内容"
+			}
+		},
+		// 考试路由
+		{
+			"path": "pages/exam/list",
+			"style": {
+				"navigationBarTitleText": "心理测试列表"
+			}
+		},
+		{
+			"path": "pages/exam/details",
+			"style": {
+				"navigationBarTitleText": "心理测试详情"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告信息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告信息"
+			}
+		},
+										// 心理咨询列表路由
+		{
+			"path": "pages/psychological_counseling/list",
+			"style": {
+				"navigationBarTitleText": "心理咨询列表"
+			}
+		},
+				// 心理咨询详情路由
+		{
+			"path": "pages/psychological_counseling/details",
+			"style": {
+				"navigationBarTitleText": "心理咨询"
+			}
+		},
+				// 预约信息编辑路由
+		{
+			"path": "pages/appointment_information/edit",
+			"style": {
+				"navigationBarTitleText": "预约信息"
+			}
+		},
+												// 系统用户列表路由
+		{
+			"path": "pages/system_user/table",
+			"style": {
+				"navigationBarTitleText": "系统用户列表"
+			}
+		},
+		// 系统用户编辑路由
+		{
+			"path": "pages/system_user/view",
+			"style": {
+				"navigationBarTitleText": "系统用户编辑"
+			}
+		},
+				// 咨询师列表路由
+		{
+			"path": "pages/consultant/table",
+			"style": {
+				"navigationBarTitleText": "咨询师列表"
+			}
+		},
+		// 咨询师编辑路由
+		{
+			"path": "pages/consultant/view",
+			"style": {
+				"navigationBarTitleText": "咨询师编辑"
+			}
+		},
+				// 心理咨询列表路由
+		{
+			"path": "pages/psychological_counseling/table",
+			"style": {
+				"navigationBarTitleText": "心理咨询列表"
+			}
+		},
+		// 心理咨询编辑路由
+		{
+			"path": "pages/psychological_counseling/view",
+			"style": {
+				"navigationBarTitleText": "心理咨询编辑"
+			}
+		},
+				// 预约信息列表路由
+		{
+			"path": "pages/appointment_information/table",
+			"style": {
+				"navigationBarTitleText": "预约信息列表"
+			}
+		},
+		// 预约信息编辑路由
+		{
+			"path": "pages/appointment_information/view",
+			"style": {
+				"navigationBarTitleText": "预约信息编辑"
+			}
+		},
+				// 预约取消列表路由
+		{
+			"path": "pages/appointment_cancellation/table",
+			"style": {
+				"navigationBarTitleText": "预约取消列表"
+			}
+		},
+		// 预约取消编辑路由
+		{
+			"path": "pages/appointment_cancellation/view",
+			"style": {
+				"navigationBarTitleText": "预约取消编辑"
+			}
+		},
+				// 投诉信息列表路由
+		{
+			"path": "pages/complaint_information/table",
+			"style": {
+				"navigationBarTitleText": "投诉信息列表"
+			}
+		},
+		// 投诉信息编辑路由
+		{
+			"path": "pages/complaint_information/view",
+			"style": {
+				"navigationBarTitleText": "投诉信息编辑"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/forum/index",
+				"text": "心理论坛",
+				"iconPath": "static/img/forum_a.png",
+				"selectedIconPath": "static/img/forum_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "心理文章",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}

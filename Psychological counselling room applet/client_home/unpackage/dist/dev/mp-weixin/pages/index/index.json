@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "list_psychological_counseling": "/components/diy/list_psychological_counseling",
+    "card": "/components/common/card",
+    "bar_title": "/components/diy/bar_title",
+    "list_ad": "/components/diy/list_ad",
+    "list_menu": "/components/diy/list_menu",
+    "list_article": "/components/diy/list_article",
+    "list_link": "/components/diy/list_link",
+    "slide": "/components/common/slide",
+    "notice": "/components/common/notice"
+  }
+}
